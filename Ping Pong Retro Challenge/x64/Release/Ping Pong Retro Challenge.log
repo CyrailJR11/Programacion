@@ -1,0 +1,21 @@
+﻿  carlos.cpp
+G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'carlos.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  main.cpp
+G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 30 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Ping Pong Retro Challenge.vcxproj -> G:\2025-2026\Practicas programacion\Ping Pong Retro Challenge\x64\Release\Ping Pong Retro Challenge.exe
