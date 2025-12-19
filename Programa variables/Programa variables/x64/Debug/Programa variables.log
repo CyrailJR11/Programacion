@@ -1,0 +1,3 @@
+﻿  Programa variables.cpp
+D:\AluCiclesGS1\Carlos\PracticasProgramacion\Programa variables\Programa variables\Programa variables.cpp(18,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Programa variables.vcxproj -> D:\AluCiclesGS1\Carlos\PracticasProgramacion\Programa variables\x64\Debug\Programa variables.exe
