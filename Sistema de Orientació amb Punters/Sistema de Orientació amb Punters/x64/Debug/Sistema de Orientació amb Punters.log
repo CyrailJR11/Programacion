@@ -1,0 +1,7 @@
+﻿  Sistema de Orientació amb Punters.cpp
+L:\2025-2026\Practicas programacion\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters.cpp(24,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+L:\2025-2026\Practicas programacion\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters.cpp(30,11): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+L:\2025-2026\Practicas programacion\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters.cpp(88,31): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+L:\2025-2026\Practicas programacion\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters.cpp(89,31): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+L:\2025-2026\Practicas programacion\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters\Sistema de Orientació amb Punters.cpp(102,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Sistema de Orientació amb Punters.vcxproj -> L:\2025-2026\Practicas programacion\Sistema de Orientació amb Punters\x64\Debug\Sistema de Orientació amb Punters.exe
