@@ -1,0 +1,59 @@
+﻿#pragma once
+#include <SFML/Graphics.hpp>
+
+using namespace sf;
+
+////////////////////////////////////////////////////////
+// GAMEOBJECT (CLASE BASE)
+// -----------------------------------------------------
+// Clase padre de TODOS los objetos visibles:
+//   - Player
+//   - Enemy
+//   - Platform
+//
+// Contiene:
+//   - posición
+//   - forma (RectangleShape)
+//   - dibujo
+//   - colisiones
+////////////////////////////////////////////////////////
+
+class GameObject {
+
+protected:
+
+    // Posición en el mundo
+    sf::Vector2f position;
+
+    // Forma gráfica
+    sf::RectangleShape shape;
+
+public:
+
+    ////////////////////////////////////////////////////
+    // Constructor
+    ////////////////////////////////////////////////////
+    GameObject(float x, float y, float w, float h);
+
+    ////////////////////////////////////////////////////
+    // Update virtual (cada hijo lo implementa)
+    ////////////////////////////////////////////////////
+    virtual void update(float dt) = 0;
+
+    ////////////////////////////////////////////////////
+    // Dibuja el objeto
+    ////////////////////////////////////////////////////
+    virtual void draw(sf::RenderWindow& window);
+
+    ////////////////////////////////////////////////////
+    // 🔥 IMPORTANTE (FIX COMPILACIÓN)
+    // getBounds ahora es CONST
+    // porque NO modifica el objeto
+    ////////////////////////////////////////////////////
+    sf::FloatRect getBounds() const;
+
+    ////////////////////////////////////////////////////
+    // Cambia posición
+    ////////////////////////////////////////////////////
+    void setPosition(float x, float y);
+};
